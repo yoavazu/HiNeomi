@@ -1,0 +1,73 @@
+body
+{
+    font-family: Secular One, Arial;
+    font-size: 50px;
+}
+
+.words
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth
+{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.seventh
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:165px;
+    opacity: 1;
+}
+
+.button
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.myimg, .press
+{
+    position: absolute;
+}
+
+.myimg
+{
+    width: 400px;
+    height: 287.289px;
+
+    top:0;
+}
+
+.press
+{
+    height: 120px;
+    width: 270px;
+    top:25px;
+    background-color: transparent;
+    border: 0;
+    font-family: Secular One;
+    font-size: 30px;
+    border-radius: 100px;
+}
+
+.first
+{
+    opacity: 1;
+}
+
+.button:active
+{
+    opacity: 0;
+}
+
+
